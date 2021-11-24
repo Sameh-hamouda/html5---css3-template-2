@@ -715,7 +715,6 @@ footer{
     position: relative;
 }
 .newsletter #txtemail{
-    min-width: 200px;
     padding: 22px 45px 10px 10px;
     height: 45px;
     color: #f6f6f6;
@@ -723,7 +722,7 @@ footer{
     font-size: 13px;
     letter-spacing: .4px;
     line-height: 22px;
-    width: 100%;
+    min-width: 100%;
     background: none;
     border: 0;
     border-bottom: 1px solid #3a3a3a;
@@ -735,7 +734,7 @@ footer{
     background: url(../images/newsletter.png) no-repeat scroll center 10px;
     padding: 0;
     top: 58%;
-    right: 0;
+    right:-20px;
     border: none;
     cursor: pointer;
 
